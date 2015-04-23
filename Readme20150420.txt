@@ -2,8 +2,9 @@ patch size: 8*8
 25 hidden units
 
 (normalized the deep learning results)
-max-min normalization for the sketches
+max-min normalization for the sketches (0-1)
 store the output value without implementing sigmoid function 
+
 
 
 1.
