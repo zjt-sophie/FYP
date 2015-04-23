@@ -2,7 +2,7 @@ function [Feature_DTest,label_DTest, fwos, patchwos] = testall(im,W1,hiddenSize,
 %TESTALL Summary of this function goes here
 %   Test all generated patches]
     testNum = size (im,3);
-    patchNum = 1000;
+    patchNum = 12000;
     Feature_DTest = zeros (hiddenSize,testNum);  
     
     [patches,label] = testIMAGES(im,patchNum); 

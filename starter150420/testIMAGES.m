@@ -49,6 +49,7 @@ end
 % % Rescale from [-1,1] to [0.1,0.9]
 % IMAGE = (IMAGE + 1) * 0.4 + 0.1;
 IMAGE = bsxfun(@rdivide,IMAGE-min(IMAGE),max(IMAGE)-min(IMAGE));
+IMAGE = 0.1+IMAGE*(0.9-0.1);
 
 end
 

@@ -2,7 +2,7 @@ patch size: 8*8
 25 hidden units
 
 (normalized the deep learning results)
-max-min normalization for the sketches (0-1)
+max-min normalization for the sketches (0.1-0.9)
 store the output value without implementing sigmoid function 
 
 
@@ -19,7 +19,7 @@ Run train.m (run without STEP 3: Gradient Checking)
 Pre-training 
 train a white patch so that we can know the background color is white
 
-Input:white_patch.mat and DeepTrainResults.mat 
+Input:white_patch_norm.mat and DeepTrainResults.mat 
 Run: pre_testwhite.m
 output:Feature_DTest_white
 
